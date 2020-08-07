@@ -15,7 +15,7 @@ func main() {
 		log.Fatal("gf is not installed / not in your PATH")
 	}
 	fmt.Printf("gf is available at %s\n", gfPath)
-
+ 
 	command := exec.Command(gfPath, "-list")
 
 	var out bytes.Buffer
